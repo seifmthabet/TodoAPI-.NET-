@@ -3,7 +3,7 @@ services:
   - type: web
     name: todo-api
     runtime: dotnet
-    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    repo: https://github.com/seifmthabet/TodoAPI-.NET-
     branch: main
     buildCommand: dotnet publish -c Release -o out
     startCommand: dotnet out/TodoAPI.dll
